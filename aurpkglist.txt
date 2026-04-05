@@ -1,0 +1,4 @@
+chocolate-doom
+vscodium-bin
+yay
+yay-debug
