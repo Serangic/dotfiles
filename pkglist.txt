@@ -7,6 +7,7 @@ bluez-utils
 breeze
 breeze-gtk
 breeze-plymouth
+btop
 chocolate-doom
 discover
 dmenu
@@ -19,6 +20,7 @@ firefox
 flatpak-kcm
 git
 grub
+htop
 i3-wm
 i3blocks
 i3lock
