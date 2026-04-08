@@ -42,11 +42,9 @@ linux-firmware
 milou
 nano
 networkmanager
-ocean-sound-theme
+neovim
 openssh
 otf-font-awesome
-oxygen
-oxygen-sounds
 plymouth-kcm
 polkit-kde-agent
 powerdevil
@@ -60,7 +58,6 @@ tumbler
 unzip
 vscodium-bin
 wacomtablet
-waybar
 xdg-desktop-portal-kde
 xorg-xinit
 xorg-xrandr
