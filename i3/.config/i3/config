@@ -25,14 +25,14 @@ set $wm_color_background             #2E3440
 set $bar_setting_separator           " | "
 set $bar_setting_statusCommand       i3status
 
-set $bar_color_background            #0F192E
+set $bar_color_background            #37526E
 set $bar_color_foreground            #FFFFFF
 set $bar_color_statusline            #FFFFFF
 set $bar_color_separator             #FFFFFF
 
-set $bar_color_workspace_focused_bg  #42598F
+set $bar_color_workspace_focused_bg  #456585
 set $bar_color_workspace_focused_fg  #FFFFFF
-set $bar_color_workspace_active_bg   #2E416E
+set $bar_color_workspace_active_bg   #1D3347
 set $bar_color_workspace_active_fg   #FFFFFF
 set $bar_color_workspace_inactive_bg #1A2847
 set $bar_color_workspace_inactive_fg #FFFFFF

@@ -54,6 +54,7 @@ sof-firmware
 spectacle
 systemsettings
 thunar
+tlp
 tumbler
 unzip
 vscodium-bin
