@@ -34,6 +34,7 @@ libksysguard
 libreoffice-fresh
 linux
 linux-firmware
+mc
 nano
 networkmanager
 neovim
