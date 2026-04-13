@@ -13,7 +13,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:JetBrainsMonoNerdFontMono-Regular 10
+font pango:JetBrainsMonoNerdFontMono-Regular 12
 
 # Variables relating to themes/theming/colors
 set $wm_color_border_active_bg       #456585
@@ -30,10 +30,10 @@ set $bar_color_foreground            #FFFFFF
 set $bar_color_statusline            #FFFFFF
 set $bar_color_separator             #FFFFFF
 
-set $bar_color_workspace_focused_bg  #456585
+set $bar_color_workspace_focused_bg  #577A9E
 set $bar_color_workspace_focused_fg  #FFFFFF
-set $bar_color_workspace_active_bg   #1D3347
-set $bar_color_workspace_active_fg   #FFFFFF
+set $bar_color_workspace_active_bg   #577A9E
+set $bar_color_workspace_active_fg   #A4C1E0
 set $bar_color_workspace_inactive_bg #1A2847
 set $bar_color_workspace_inactive_fg #FFFFFF
 set $bar_color_workspace_urgent_bg   #D08770

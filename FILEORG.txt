@@ -1,0 +1,16 @@
+This file exists so that you do not forget where to put all of your files...
+
+alacritty.toml: ~/.config/alacritty/
+
+i3's config: ~/.config/i3/
+
+i3status' config: ~/.config/i3status/
+
+serbase.ini: ~/.local/share/mc/skins
+! Make sure to also add 'serbase' as your skin in... some configuration file in the mc.
+Not sure if it's in root or not...
+
+init.lua: ~/.config/nvim/
+
+The package lists (pkglist.txt and aurpkglist.txt) serve as a reference, but
+should run with Pacman.
