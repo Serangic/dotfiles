@@ -9,6 +9,8 @@ breeze-gtk
 breeze-plymouth
 btop
 chocolate-doom
+clang
+cmake
 dmenu
 efibootmgr
 fastfetch
