@@ -8,3 +8,6 @@ size = 11.5
 padding = { x = 0, y = 0}
 dynamic_padding = true
 decorations = "None"
+
+[colors.primary]
+background="#000000"
