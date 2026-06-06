@@ -1,3 +1,23 @@
+vim.opt.rtp:prepend("~/.local/share/nvim/lazy/lazy.nvim")
+
+require("lazy").setup({
+    {
+    "nvim-telescope/telescope.nvim",
+    dependencies = { "nvim-lua/plenary.nvim" }
+    }
+})
+
+vim.lsp.config("clangd", {
+	cmd = { "clangd" },
+    filetypes = {"c","cpp","objc","objcpp"},
+})
+vim.lsp.enable("clangd")
+
+
+-- Comment these if you do not have telescope.
+local builtin = require("telescope.builtin")
+vim.keymap.set("n", "<leader>ff", builtin.find_files, {})
+
 vim.opt.number = true
 vim.opt.relativenumber = false
 vim.opt.cursorline = true
@@ -22,3 +42,4 @@ vim.api.nvim_set_hl(0, "StatusLineNC", {
 })
 
 vim.opt.statusline = "%f %= %l:%c %p%%"
+-- vim.cmd("colorscheme vscode")
