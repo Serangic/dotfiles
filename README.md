@@ -1,12 +1,14 @@
 # Serangic's Dotfiles
 
-Keep in mind, just clone the repo, and clone the files, then just copy them over in your configs.
-This part is entirely your responsibility.
+<p>A simple, hyper-efficient setup, using only 250MB RAM on idle, incentivising use of the terminal.<br>
+Animations, effects and icons are removed for maximum performance and no distractions.</p>
+
+<p>Here are the apps I use:</p>
 
 | Category | Tool |
 | --- | ----------- |
-| Terminal | Alacritty |
-| Window Manager | i3 |
-| Code/Text Editor | Neovim |
-| File Manager | Midnight Commander |
-| Shell | Bash |
+| Terminal | [Alacritty](https://alacritty.org/) |
+| Window Manager | [i3](https://i3wm.org/) <sub>X11</sub> |
+| Code/Text Editor | [Neovim](https://neovim.io/) |
+| File Manager | [Midnight Commander](https://midnight-commander.org/) |
+| Shell | [Bash](https://www.gnu.org/software/bash/) |
