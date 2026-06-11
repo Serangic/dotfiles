@@ -8,6 +8,8 @@
 
 general {
         colors = true
+        color_bad = "#FF3838"
+        color_good = "#2EFF51"
         interval = 2
 }
 
@@ -26,6 +28,12 @@ wireless _first_ {
 
 battery all {
         format = "%status:%percentage (%remaining)"
+        status_chr = "󰂄"
+        status_bat = "󱊢"
+        status_unk = "?"
+        status_full = "󱊣"
+        low_threshold = "25"
+        threshold_type = "percentage"
 }
 
 disk "/" {
@@ -42,11 +50,11 @@ memory {
         threshold_critical = "1.75G"
         color_good = "00ff00"
         color_degraded = "#fdfd22"
-        color_bad = "ff3729"
+        color_bad = "f54e42"
 }
 
 tztime local {
-        format = "%Y-%m-%d %H:%M:%S"
+        format = "%Y-%m-%d %H:%M:%S  "
 }
 
 cpu_usage {

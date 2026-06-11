@@ -1,13 +1,16 @@
 [font]
-normal = { family = "JetBrainsMonoNerdFont", style="Regular"}
-bold = {family = "JetBrainsMonoNerdFont", style="Bold"}
-italic = {family= "JetBrainsMonoNerdFont", style="Italic"}
-size = 11.5
+normal = { family = "JetBrainsMonoNerdFontMono", style="Regular"}
+bold = {family = "JetBrainsMonoNerdFontMono", style="Bold"}
+italic = {family= "JetBrainsMonoNerdFontMono", style="Light"}
+size = 14
 
 [window]
 padding = { x = 0, y = 0}
 dynamic_padding = true
-decorations = "None"
+decorations = "Full"
 
 [colors.primary]
 background="#202020"
+
+[colors.normal]
+blue = "#51b9f5"
