@@ -2,7 +2,7 @@
 
 <p>A simple, hyper-efficient setup, using only 250MB RAM on idle, incentivising use of the terminal.</p>
 
-<p>**These dotfiles are heavily prone to restructuring, introduction of new packages, etc...**</p<
+<p>**These dotfiles are heavily prone to restructuring, introduction of new packages, etc...**</p>
 
 <p>Here are the apps I use:</p>
 
