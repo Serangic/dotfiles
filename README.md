@@ -1,7 +1,8 @@
 # Serangic's Dotfiles
 
-<p>A simple, hyper-efficient setup, using only 250MB RAM on idle, incentivising use of the terminal.<br>
-Animations, effects and icons are removed for maximum performance and no distractions.</p>
+<p>A simple, hyper-efficient setup, using only 250MB RAM on idle, incentivising use of the terminal.</p>
+
+<b>These dotfiles are heavily prone to restructuring, introduction of new packages, etc...</b>
 
 <p>Here are the apps I use:</p>
 
