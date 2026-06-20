@@ -1,10 +1,8 @@
 # Serangic's Dotfiles
 
-<p>A simple, hyper-efficient setup, using only 270MB RAM on idle, incentivising use of the terminal. The setup is... pale, but please, you are encouraged to change it, and it's not hard either.</p>
+<p>Serangic's setup. Need I say more?</p>
 
-*Currently adding Qutebrowser*
-
-<p>Here are the apps I use:</p>
+### Applications
 
 | Category | Tool |
 | --- | ----------- |
@@ -12,4 +10,5 @@
 | Window Manager | [i3](https://i3wm.org/) <sub>X11</sub> |
 | Code/Text Editor | [Neovim](https://neovim.io/) |
 | File Manager | [Midnight Commander](https://midnight-commander.org/) |
+| Internet Browser | [Qutebrowser](https://qutebrowser.org/index.html) |
 | Shell | [Bash](https://www.gnu.org/software/bash/) |
