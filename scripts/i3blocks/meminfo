@@ -1,0 +1,39 @@
+#!/bin/bash
+
+read memTotal memAvail < <(
+awk '
+/MemTotal:/ {t=$2}
+/MemAvailable:/ {a=$2}
+END {print t, a}
+' /proc/meminfo
+)
+
+memUsed=$((memTotal - memAvail))
+memPerc=$((memUsed * 100 / memTotal))
+
+usedMB=$((memUsed / 1024))
+totalMB=$((memTotal / 1024))
+
+color="#ffffff"
+
+if [[ memPerc -lt 30 ]]; then
+    color="#5efc49"
+elif [[ memPerc -lt 40 ]]; then
+    color="#9dfc49"
+elif [[ memPerc -lt 50 ]]; then
+    color="#ebfc49"
+elif [[ memPerc -lt 60 ]]; then
+    color="#fcdf49"
+elif [[ memPerc -lt 70 ]]; then
+    color="#fc9749"
+elif [[ memPerc -lt 80 ]]; then
+    color="#fc7049"
+elif [[ memPerc -lt 90 ]]; then
+    color="#fc4949"   
+elif [[ memPerc -lt 95 ]]; then
+    color="#ff0000"
+fi
+
+echo "${memPerc}%"
+echo "${usedMB}MB/${totalMB}MB"
+echo "${color}"

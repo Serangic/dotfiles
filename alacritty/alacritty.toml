@@ -1,0 +1,22 @@
+[font]
+normal = { family = "JetBrainsMonoNerdFontMono", style="Regular"}
+bold = {family = "JetBrainsMonoNerdFontMono", style="Bold"}
+italic = {family= "JetBrainsMonoNerdFontMono", style="Light"}
+size = 14
+
+[cursor]
+style = "Beam"
+
+[window]
+padding = { x = 0, y = 0}
+dynamic_padding = true
+decorations = "None"
+
+[colors.primary]
+background="#202020"
+
+[colors.normal]
+red = "#db3737"
+green = "#a2fa2f"
+yellow = "#fce351"
+blue = "#51b9f5"
